@@ -1,20 +1,11 @@
-fruits = ["apple", "banana", "cherry"]
-print("Original list:", fruits)
-print("First element:", fruits[0])
-print("Last element:", fruits[-1])
-fruits.append("orange") 
-fruits.insert(1, "blueberry") 
-print("After adding elements:", fruits)
-fruits.remove("banana")
-popped_item = fruits.pop()  
-print("After removals:", fruits) 
-print("Popped item:", popped_item) 
-l1 = [10,15,20,25,30,]
-l1.reverse()
-print("Reversed list:", l1)
-l2 = [40, 10, 30, 20]
-l2.sort()
-print("Sorted list:", l2)
-l3=l1+l2 
-print(l3)
-
+t1 = (10, 20, 30, 40, 20, 50)
+print("First element:", t1[0])
+print("Last element:", t1[-1])
+print("Length of tuple:", len(t1))
+print("Count of 20 in tuple:", t1.count(20))
+print("Index of 30:", t1.index(30)) 
+print("The maximum item=",format(max(t1))) 
+print("The minimum item=",format(min(t1)))
+t1 = (5, 8)
+t2 = (7, 9)
+print("Concatenated tuple:", t1 + t2) 
