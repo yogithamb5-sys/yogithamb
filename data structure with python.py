@@ -1,11 +1,7 @@
-t1 = (10, 20, 30, 40, 20, 50)
-print("First element:", t1[0])
-print("Last element:", t1[-1])
-print("Length of tuple:", len(t1))
-print("Count of 20 in tuple:", t1.count(20))
-print("Index of 30:", t1.index(30)) 
-print("The maximum item=",format(max(t1))) 
-print("The minimum item=",format(min(t1)))
-t1 = (5, 8)
-t2 = (7, 9)
-print("Concatenated tuple:", t1 + t2) 
+def fact(n):
+  if n == 1:
+    return 1 
+  else:
+    return (n * fact(n-1))
+n=int(input("Enter the number:"))
+print("The factorial of a number is:",fact(n)) 
