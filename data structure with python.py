@@ -39,7 +39,7 @@ class DoublyLinkedList:
         if(self.first== None): 
             print("list is empty") 
             return
-        cur = self.first 
+          cur = self.first 
         while cur != None: 
             if cur.data == item: 
                 print("Item is present in the Linked list") 
@@ -65,4 +65,7 @@ while(True):
         dll.display() 
     else: 
         break
-        
+    
+     
+
+
